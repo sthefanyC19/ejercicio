@@ -1,0 +1,39 @@
+* {margin: auto; padding: 0; font-family: arial;}
+
+/*body: cuerpo de la p&aacute;gina*/
+body { background-color: blanchedalmond;}
+
+/*cabecera*/
+header { background-color: black;}
+header h1 {text-align: center; color:blue; padding: 0.5em; font-size: 1.5em; }
+header h2 { text-align: center; color:brown; padding: 0.5em; font-size: 1.2em; }
+
+
+/*navegador*/
+nav { background-color: aquamarine; min-height: 2em; text-align: center; }
+nav p{ display: inline;}
+nav a:link, nav a:visited {text-decoration: none;color:darkgoldenrod;background-color: chocolate; margin:0.3em;}
+nav a:hover, nav a:active {text-decoration: none; color:darkorange;background-color: black; margin:0.3em;}
+
+/*principal: article:*/
+section {width: 75%; background-color: aliceblue;float: left; }
+section h1 {text-align: center; padding: 0.5em; color:dodgerblue; font-size: 1.4em; }
+section h2 {text-align: center; padding: 05em; color:blue; font-size: 1.2em; }
+section h3 {text-align: left; padding: 0.3em; color:forestgreen;font-size: 1em; }
+
+/*secciones: section:*/
+article { margin: 0.5em 3em; padding: 0.5em 2em; background-color: gold; border: 3px double aqua;}
+article p { text-align: justify; }
+
+/*propaganda: aside*/
+aside {width: 25%; float: left;}
+#anuncio1 {margin: 20px; padding: 10px; border: 2px solid blue; background-color: red;}
+#anuncio1 h1 {font-size: 1.1em; text-align: left; padding: 0.2em 0em; }
+#anuncio1 h2 {font-size: 1.5em; text-align: center; padding: o.5em 0em; }
+#anuncio1 p{font-size: 0.9em; padding: 0.2em 1em; }
+
+/*pie de p&aacute;gina: footer*/
+footer {clear:both; background-color: black;}
+footer h1 {text-align: center; font-size: 1.4em; color:brown; padding: 0.7em; }
+footer h2 {text-align: center; font-size: 1em; padding: 0.4em; } 
+footer a {text-decoration: none;color:darkgreen; }
